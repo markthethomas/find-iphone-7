@@ -1,4 +1,5 @@
-# find-iphone-7
+# find-iphone-7 🕵🏻📱➆
+
 simple CLI to check for available iphone 7's near you. Built bc I didn't want to have to keep checking the site to see when there'd be an iphone 7 available in my area. 
 
 install: 
