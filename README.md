@@ -1,6 +1,6 @@
 # find-iphone-7 🕵🏻📱➆
 
-simple CLI to check for available iphone 7's near you. Built bc I didn't want to have to keep checking the site to see when there'd be an iphone 7 available in my area. 
+simple CLI to check for available iphone 7's near you. Built because I didn't want to have to keep checking the site to see when there'd be an iphone 7 (plus) available in my area. 
 
 install: 
 
@@ -39,7 +39,7 @@ CLI Params:
 ```
 
 
-If you provide the notify flag, you need to set up an iphone.yaml file that'll let twilio send you a text w/ the info about
+If you provide the notify flag, you need to set up an `iphone.yaml` file that'll let twilio send you a text w/ the info about
 
 ```yaml
 TWILIO_ACCOUNT: <account>
