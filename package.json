@@ -1,6 +1,6 @@
 {
   "name": "find-iphone-7",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "description": "Simple CLI tool to check for available iphone 7s in your area",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "keywords": "phone cli mobile iphone 7 seven plus apple",
   "repository": {
-    "url": "git@github.com:markthethomas/iphone-7-availability.git",
+    "url": "git@github.com:markthethomas/find-iphone-7.git",
     "type": "git"
   },
   "author": "Mark Thomas <markthethomas@gmail.com>",
