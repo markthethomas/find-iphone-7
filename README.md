@@ -3,7 +3,7 @@ simple CLI to check for available iphone 7's near you. Built bc I didn't want to
 
 install: 
 
-```
+```shell
 λ yarn global add find-iphone-7
 ```
 or
@@ -12,10 +12,17 @@ or
 λ npm i -g find-iphone-7
 ```
 
+## Example
+Find black iphone 7 plus's in my zipcode w/ ATT
+
+```shell
+λ find-iphone-7 --zip 12345 --model plus --color black --capacity 256 --carrier att --watch --notify
+```
+
 ## Usage
 
-```
-λ find-iphone-7 --zip 12345 --model plus | seven --color black --capacity 256 --carrier att [--watch [--notify]]
+```shell
+λ find-iphone-7 --zip 12345 --model plus --color black --capacity 256 --carrier att --watch --notify
 ```
 
 CLI Params: 
