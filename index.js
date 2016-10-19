@@ -145,9 +145,11 @@ function checkForAvailability() {
 }
 
 if (watch) {
-  const checker = new CronJob('*/1 * * * *', () => checkForAvailability(zip, parts.iphone7Plus), null, true, 'America/Los_Angeles');
+  const checker = new CronJob('*/1 * * * *', () => checkForAvailability(), null, true, 'America/Los_Angeles');
   checker.start();
 } else {
   checkForAvailability().then(() => setTimeout(() => spinner.stopAndPersist(), 2000))
   .catch(err => console.error(err));
 }
+
+module.exports = checkForAvailability;

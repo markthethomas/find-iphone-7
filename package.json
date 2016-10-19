@@ -1,6 +1,6 @@
 {
   "name": "find-iphone-7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "Simple CLI tool to check for available iphone 7s in your area",
   "bin": {
